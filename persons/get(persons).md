@@ -8,8 +8,8 @@ get(persons)
 > Пример ответа
 ```json
 {
- success: true,
- data: [
+"success": true,
+"data": [
    {
        "id": 23049,
        "person_id": "3d674ecb-65ab-490b-b5cf-9dcf7de67e7a",
