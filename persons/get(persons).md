@@ -21,7 +21,7 @@ get(persons)
        "chain_id": 60,
        "franchise_admin_id": null,
        "speciality_id": 3,
-       "birth_date": 2000-01-01,
+       "birth_date": '2000-01-01',
        "firstname": "Дарья",
        "lastname": "Иванова",
        "fatherland": "Леонидовна",
