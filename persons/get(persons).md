@@ -1,4 +1,4 @@
-## persons| Список сотрудников
+## persons: Список сотрудников
 
 > Пример запроса на создание онлайн-заказа
 ```javascript
@@ -7,9 +7,9 @@ get(persons)
 
 > Пример ответа
 ```json
-{
- success: true,
-  data: [
+	{
+ 	success: true,
+  	data: [
             {
                 "id": 23049,
                 "person_id": "3d674ecb-65ab-490b-b5cf-9dcf7de67e7a",
@@ -41,7 +41,8 @@ get(persons)
                 "created_at": "2022-01-10T07:02:46.000000Z",
                 "invite_code": "ycmewq",
              },
-	]
+		]
+     }
 ```
 
 
