@@ -27,12 +27,13 @@ post(create/order-to-delivery)
 id | id салона (точки) (int)
 phone| телефон клиета (string)
 products | массив объектов товаров для заказа (array)
+
 Массив `products` содержит объектs с такими свойствами:
 Свойство | Описание
 -------- | --------
 product_id | id блюда (int)
 count | количество (int)
-> Пример ответа 
+> Пример ответа
 ```json
 {
  "success": true,
