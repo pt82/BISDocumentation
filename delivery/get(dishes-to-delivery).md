@@ -23,8 +23,12 @@ department_id| id салона (точки) (int)
     "success": true,
     "data": {
         "schedules": [
-            6,
-            5
+            {
+                "categoryIds": [
+                    6,
+                    5
+                ]
+            }
         ],
         "categories": [
             {
