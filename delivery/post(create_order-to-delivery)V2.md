@@ -2,7 +2,7 @@
 
 > Пример запроса на создание онлайн-заказа
 ```javascript
-post(create/order-to-delivery)
+post(create/order-from-delivery)
 ```
 >Параметры запроса
 ```json
