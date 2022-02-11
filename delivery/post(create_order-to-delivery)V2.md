@@ -7,7 +7,7 @@ post(create/order-from-delivery)
 >Параметры запроса
 ```json
 {
-    "id":24,
+    "department_id":24,
     "client_id": 12586,
     "phone": "+79230000000",
     "first_name": "Иван",
@@ -19,9 +19,9 @@ post(create/order-from-delivery)
     "client_address_id": 2,
     "client_address":
     {
-    "address1": "Улица и номер дома",
-	"address2":"Дополнительно: подъезд, этаж, квартира и т. д.",
-	"comment": "Комментарий к адресу",
+    "address1": 	"Улица и номер дома",
+	"address2"	"Дополнительно: подъезд, этаж, квартира и т. д.",
+	"comment": 	"Комментарий к адресу",
 	"lat" :	"Координата широты адреса клиента"
 	"lng" :	"Координата долготы адреса клиента"
     },
@@ -31,20 +31,20 @@ post(create/order-from-delivery)
     "delivery_time": "2022-02-03 10:20:30"
     "payment":	{
     		"type": 0,
-            	"sum" : 200,
-            	"currency": "RUB"
+            "sum" : 200,
+            "currency": "RUB"
     	},
     "promotion": [
     	{
-        "id": 1,
-           "involved_products": [
+        	"id": 1,
+            "involved_products": [
             	{
-                "id": 1,
-                   "count": 2
+                	"id": 1,
+                    "count": 2
                 },
                 {
-                "id": 2,
-                 "count": 1
+                	"id": 2,
+                    "count": 1
                 }
             ],
             "result_products": [
@@ -57,12 +57,12 @@ post(create/order-from-delivery)
     ],
     "products": [
         {
-           "id":9,
-           "count": 1
+            "id":9,
+            "count": 1
         },
         {
-        "product_id":10,
-         "count": 2
+        	"id":10,
+            "count": 2
         }
     ]
 }
@@ -72,7 +72,7 @@ post(create/order-from-delivery)
 
 Свойство | Описание
 -------- | --------
-id | id салона (точки)
+department_id | id салона (точки)
 client_id| id клиента,
 phone| +79230000000,
 first_name| 	Имя клиента, по умолчанию не передаётся
