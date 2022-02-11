@@ -1,4 +1,4 @@
-## create/order-to-delivery: Создание онлайн-заказа в Poster 
+## create/order-from-delivery: Создание онлайн-заказа в Poster 
 
 > Пример запроса на создание онлайн-заказа
 ```javascript
